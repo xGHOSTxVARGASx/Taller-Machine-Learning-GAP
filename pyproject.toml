@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lista4"
+version = "0.1.0"
+description = "Codigo reutilizable para la Cuarta lista de ejercicios de Introduccion al Machine Learning"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "matplotlib",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
