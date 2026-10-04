@@ -29,11 +29,11 @@ importan desde cada cuaderno; ningún cuaderno redefine estas funciones.
 
 ## Instalación
 
-Con Python 3.10+ instalado, desde la raíz de `lista_4/`:
+Con Python 3.14+ instalado, desde la raíz de `lista_4/`:
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate        # En Windows: .venv\Scripts\activate
+source .venv/bin/activate        
 pip install -r requirements.txt
 pip install -e .
 ```
